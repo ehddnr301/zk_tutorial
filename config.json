@@ -1,4 +1,23 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "devnet": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/devnet.json",
+      "feepayerKeyPath": "/home/leedongwook.dev2/.cache/zkapp-cli/keys/dwlee.json",
+      "feepayerAlias": "dwlee",
+      "fee": "0.0001",
+      "smartContract": "Square"
+    },
+    "devnet2": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/devnet2.json",
+      "feepayerKeyPath": "/home/leedongwook.dev2/.cache/zkapp-cli/keys/dwlee.json",
+      "feepayerAlias": "dwlee",
+      "fee": "0.1",
+      "smartContract": "Square"
+    }
+  }
 }
